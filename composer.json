@@ -1,0 +1,22 @@
+
+{
+    "name": "juicelib/filtermodule",
+    "autoload": {
+        "psr-0": {
+            "JuiceLib\\FilterModule\\": "src"
+        }
+    },
+    "homepage": "https://github.com/JuiceLib/JuiceLib-FilterModule",
+    "type": "library",
+    "license": "MIT",
+     "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-mvc": ">=2.3.7"
+    },
+    "authors": [
+        {
+            "name": "Yoel Nunez",
+            "email": "dev@yoelnunez.com"
+        }
+    ]
+}
