@@ -1,22 +1,30 @@
-
 {
-    "name": "juicelib/filtermodule",
-    "autoload": {
-        "psr-0": {
-            "JuiceLib\\FilterModule\\": "src"
-        }
-    },
-    "homepage": "https://github.com/JuiceLib/JuiceLib-FilterModule",
-    "type": "library",
-    "license": "MIT",
-     "require": {
-        "php": ">=5.3.23",
-        "zendframework/zend-mvc": ">=2.3.7"
-    },
-    "authors": [
-        {
-            "name": "Yoel Nunez",
-            "email": "dev@yoelnunez.com"
-        }
-    ]
+  "name": "juicelib/filtermodule",
+  "description": "Intercept requests/responses at the route/MvcEvent::EVENT_ROUTE event and transform or use the request or response",
+  "keywords": [
+    "zf2",
+    "zend framework",
+    "zend framework 2",
+    "filter",
+    "request filter",
+    "response filter"
+  ],
+  "autoload": {
+    "psr-0": {
+      "JuiceLib\\FilterModule\\": "src"
+    }
+  },
+  "homepage": "https://github.com/JuiceLib/JuiceLib-FilterModule",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.23",
+    "zendframework/zend-mvc": ">=2.3.7"
+  },
+  "authors": [
+    {
+      "name": "Yoel Nunez",
+      "email": "dev@yoelnunez.com"
+    }
+  ]
 }
